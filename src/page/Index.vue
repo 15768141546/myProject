@@ -16,7 +16,9 @@
 			</div>
 			<div class="v-item-box">
 				<div class="v-box box1">
-					<img src="../assets/bdj.png"/>
+					<img v-bind:src="imgUrl" class="v-box-img"/>
+					<p class="v-box-txt">交易金额</p>
+					<p class="v-box-num">3,243,669.34元</p>
 				</div>
 				<div class="v-box box1">1</div>
 				<div class="v-box box1">1</div>
@@ -30,7 +32,8 @@
 	export default {
 		name: 'Home',
 		data() {
-			return {			
+			return {
+				imgUrl:require('../assets/tkje.png')
 			}
 		},
 		methods: {
@@ -106,5 +109,8 @@
 	}
 	.box2{
 		width:372px;
+	}
+	.v-box-img{
+		margin:35px 0 25px;
 	}
 </style>
