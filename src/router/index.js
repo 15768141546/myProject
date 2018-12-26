@@ -5,7 +5,6 @@ import Home from '@/page/Index'
 import Jurisdiction from '@/page/Jurisdiction'
 
 Vue.use(Router)
-
 export default new Router({
 	routes: [
 	{

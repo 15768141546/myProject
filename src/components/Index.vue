@@ -4,7 +4,7 @@
 			<el-header>聚合收款服务平台</el-header>
 			<el-container>
 				<el-aside width="256px">
-					<div style="text-align: left;">
+					<div style="text-align: left;box-shadow: 2px 0 4px 0 #EBEFF7;">
 						<el-row class="tac">
 							<el-col :span="24">
 								<el-menu default-active="1" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" background-color="#fff" text-color="#535A69" active-text-color="#2081FD">
